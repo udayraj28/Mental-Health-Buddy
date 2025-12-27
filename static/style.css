@@ -418,18 +418,20 @@ footer {
     }
     
     #userInput {
-        padding: 10px 12px;
-        font-size: 0.85rem;
+        padding: 12px 14px;
+        font-size: 0.9rem;
         border-radius: 24px;
         flex: 1;
+        min-width: 0;
     }
     
     #sendButton {
         margin-left: 8px;
-        padding: 10px 16px;
+        padding: 12px 18px;
         border-radius: 24px;
         min-width: auto;
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        flex-shrink: 0;
     }
     
     .quick-actions {
@@ -446,6 +448,34 @@ footer {
         padding: 10px 5px;
         font-size: 0.75rem;
         border-radius: 20px;
+    }
+}
+
+/* Specific styles for your screen size (165mm x 76mm ~ 6.5" x 3") */
+@media (max-width: 650px) and (max-height: 320px), (max-width: 480px) and (max-height: 850px), (max-width: 540px) and (max-height: 960px) {
+    .input-container {
+        flex-direction: row;
+        gap: 8px;
+        padding: 15px 12px;
+    }
+    
+    #userInput {
+        padding: 12px 14px;
+        font-size: 0.9rem;
+        flex: 1;
+        min-width: 0;
+    }
+    
+    #sendButton {
+        padding: 12px 18px;
+        font-size: 0.85rem;
+        min-width: auto;
+        flex-shrink: 0;
+    }
+    
+    .chat-container {
+        height: 50vh;
+        min-height: 250px;
     }
 }
 
@@ -498,15 +528,17 @@ footer {
     }
     
     #userInput {
-        padding: 10px 12px;
+        padding: 12px 14px;
         font-size: 0.8rem;
         flex: 1;
+        min-width: 0;
     }
     
     #sendButton {
-        padding: 10px 14px;
+        padding: 12px 16px;
         font-size: 0.8rem;
         min-width: auto;
+        flex-shrink: 0;
     }
     
     .typing-dots span {
