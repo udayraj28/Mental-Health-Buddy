@@ -30,6 +30,9 @@ body {
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.2);
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -59,6 +62,7 @@ header p {
     flex-direction: column;
     height: 70vh;
     min-height: 450px;
+    flex: 1;
     background: 
         radial-gradient(circle at top right, rgba(240, 230, 246, 0.3) 0%, transparent 30%),
         radial-gradient(circle at bottom left, rgba(252, 239, 232, 0.3) 0%, transparent 30%);
@@ -79,10 +83,12 @@ header p {
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     color: #777;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     background-color: rgba(255, 255, 255, 0.8);
+    margin-top: auto;
+    border-top: 1px solid #eee;
 }
 
 .message {
@@ -384,8 +390,8 @@ footer {
     }
     
     .chat-container {
-        height: 60vh;
-        min-height: 300px;
+        height: 55vh;
+        min-height: 280px;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -412,17 +418,18 @@ footer {
     }
     
     #userInput {
-        padding: 14px 16px;
-        font-size: 1rem;
+        padding: 12px 14px;
+        font-size: 0.9rem;
         border-radius: 24px;
         flex: 1;
     }
     
     #sendButton {
         margin-left: 8px;
-        padding: 14px 16px;
+        padding: 12px 14px;
         border-radius: 24px;
         min-width: auto;
+        font-size: 0.9rem;
     }
     
     .quick-actions {
@@ -491,14 +498,14 @@ footer {
     }
     
     #userInput {
-        padding: 12px 14px;
-        font-size: 0.9rem;
+        padding: 10px 12px;
+        font-size: 0.85rem;
         flex: 1;
     }
     
     #sendButton {
-        padding: 12px 14px;
-        font-size: 0.8rem;
+        padding: 10px 12px;
+        font-size: 0.75rem;
         min-width: auto;
     }
     
