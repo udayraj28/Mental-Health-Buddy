@@ -118,3 +118,7 @@ An example API implementation is provided in [tips_api.py](file:///D:/Desktop1/D
 ## 📄 License
 
 This project is for educational purposes and mental health support.
+=======
+# Mental-Health-Buddy
+A compassionate chatbot that checks in on users' emotional well-being and provides personalized coping strategies, breathing exercises, and mental health support.
+>>>>>>> c2c6e1919e90df122077f8bc719a336b4d1144a2
