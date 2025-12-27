@@ -77,6 +77,14 @@ header p {
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
 }
 
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    font-size: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .message {
     max-width: 80%;
     padding: 16px 20px;
@@ -376,8 +384,8 @@ header p {
     }
     
     .chat-container {
-        height: 55vh;
-        min-height: 250px;
+        height: 60vh;
+        min-height: 300px;
         flex: 1;
         display: flex;
         flex-direction: column;
