@@ -346,13 +346,13 @@ footer {
     }
     
     #userInput {
-        padding: 14px 18px;
-        font-size: 0.95rem;
+        padding: 12px 16px;
+        font-size: 0.9rem;
     }
     
     #sendButton {
-        padding: 14px 24px;
-        font-size: 0.95rem;
+        padding: 12px 20px;
+        font-size: 0.9rem;
     }
     
     .quick-actions {
@@ -418,18 +418,18 @@ footer {
     }
     
     #userInput {
-        padding: 8px 10px;
-        font-size: 0.8rem;
+        padding: 10px 12px;
+        font-size: 0.85rem;
         border-radius: 24px;
         flex: 1;
     }
     
     #sendButton {
         margin-left: 8px;
-        padding: 12px 14px;
+        padding: 10px 16px;
         border-radius: 24px;
         min-width: auto;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
     
     .quick-actions {
@@ -498,14 +498,14 @@ footer {
     }
     
     #userInput {
-        padding: 6px 10px;
+        padding: 10px 12px;
         font-size: 0.8rem;
         flex: 1;
     }
     
     #sendButton {
-        padding: 10px 12px;
-        font-size: 0.75rem;
+        padding: 10px 14px;
+        font-size: 0.8rem;
         min-width: auto;
     }
     
