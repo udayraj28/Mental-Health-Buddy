@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Buddy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💚 Mental Health Buddy</h1>
+            <p>Your empathetic companion for emotional well-being</p>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hi there! I'm your Mental Health Buddy 🌱
+                    </div>
+                </div>
+                <div class="message bot-message">
+                    <div class="message-content">
+                        I'm here to listen and support you on your wellness journey. How are you feeling today? 💛
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Type how you're feeling..." autocomplete="off">
+                <button id="sendButton">Send 🌊</button>
+            </div>
+            
+            <div class="quick-actions">
+                <button class="checkin-button" onclick="sendQuickMessage('I\'m feeling anxious today')">😰 Anxious</button>
+                <button class="checkin-button" onclick="sendQuickMessage('I\'m feeling sad')">😢 Sad</button>
+                <button class="checkin-button" onclick="sendQuickMessage('I\'m really stressed')">😫 Stressed</button>
+                <button class="checkin-button" onclick="sendQuickMessage('I\'m feeling okay')">🙂 Neutral</button>
+                <button class="checkin-button" onclick="sendQuickMessage('I\'m feeling happy!')">😊 Happy</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
