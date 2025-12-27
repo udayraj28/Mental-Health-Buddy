@@ -190,10 +190,10 @@ footer {
 
 #userInput {
     flex: 1;
-    padding: 16px 20px;
+    padding: 8px 12px;
     border: 2px solid #e0d6eb;
     border-radius: 30px;
-    font-size: 1rem;
+    font-size: 0.85rem;
     outline: none;
     transition: all 0.3s;
     background-color: #fdfaff;
@@ -418,8 +418,8 @@ footer {
     }
     
     #userInput {
-        padding: 12px 14px;
-        font-size: 0.9rem;
+        padding: 8px 10px;
+        font-size: 0.8rem;
         border-radius: 24px;
         flex: 1;
     }
@@ -498,8 +498,8 @@ footer {
     }
     
     #userInput {
-        padding: 10px 12px;
-        font-size: 0.85rem;
+        padding: 6px 10px;
+        font-size: 0.8rem;
         flex: 1;
     }
     
